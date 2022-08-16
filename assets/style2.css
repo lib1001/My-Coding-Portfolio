@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #D5E2DA;
+    color: #09117D;
+    line-height: 1.5;
+    font-size: 2rem;
+    font-family: -apple-system, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    justify-content: space-between;
+    /* Change colors */
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    width: fit-content;
+    z-index: 1;
+
+}
+
+.hero img {
+    display: inline;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 5px;
+}
+
+ul {
+    display: inline;
+    display: flex;
+    justify-content: space-evenly;
+    text-size-adjust: 80%;
+    text-decoration: none;
+}
+ul a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+
+
+
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 3rem;
+    width: 50%;
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px; 
+    align-content: center;
+    justify-content: center;
+}
+
+.card-column {
+    flex: 1 0 100%;
+    padding: 1.5rem;
+    /* when the screen resizes, make it so our columns don't jump in size */
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
+    align-content: center;
+  }
+
+.card-header {
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    border: 2ps solid black;
+    border-radius: 5px;
+    
+}
+
+.my-work {
+    position: absolute;
+    right: 0px;
+}
+
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    main,
+    nav {
+        flex-direction: column
+    }
+}
+
+
