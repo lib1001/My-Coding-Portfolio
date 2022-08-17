@@ -63,11 +63,6 @@ nav a {
     padding-bottom: 5px;
 }
 
-.a:visited {  
-    text-decoration: none;
-    color; inherit;
-  }
-
 nav a:hover {
     color: rgb(141, 120, 155);
 }
@@ -143,6 +138,11 @@ nav a:hover {
 .project1:hover,
 .project2:hover {
     filter: drop-shadow(10px 10px 5px rgb(160, 98, 175));
+}
+
+.card-body ul a {
+    text-decoration: none;
+    color: inherit;
 }
 
 @media screen and(max-width: 992px) {
