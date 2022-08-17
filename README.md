@@ -12,10 +12,6 @@ Simply deploying the web application will get things going.
 
 In this application, the links in the navigation bar, and "my work" and "contact me" sections are all functional. More wil be included under My Work as time goes on. 
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
 ![Deployed Website](images\lib1001.github.io_My-Coding-Portfolio_.png)
 
 ## License
