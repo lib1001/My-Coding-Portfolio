@@ -63,6 +63,11 @@ nav a {
     padding-bottom: 5px;
 }
 
+.a:visited {  
+    text-decoration: none;
+    color; inherit;
+  }
+
 nav a:hover {
     color: rgb(141, 120, 155);
 }
@@ -79,6 +84,7 @@ nav a:hover {
     border-radius: 10px;
     align-content: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 .card-header {
@@ -139,32 +145,11 @@ nav a:hover {
     filter: drop-shadow(10px 10px 5px rgb(160, 98, 175));
 }
 
-
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.column {
-    float: left;
-    width: 50%;
-    padding: 0 10px;
-  }
-
 @media screen and(max-width: 992px) {
 
     .card,
     .profile {
         width: 50%
-    }
-}
-
-@media screen and(max-width: 768px) {
-    .card {
-        flex-direction: column;
     }
 }
 
